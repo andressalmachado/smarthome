@@ -1,7 +1,4 @@
 <?php
-//rotinas para habilitar a exibicao de erros na pagina. Tire se nao quiser.
-//error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);
-//ini_set('display_errors', '1');
 
 include "PhpSerial.php"; //import da biblioteca de serial com php
 $read = "";
@@ -26,7 +23,7 @@ if(isset($_GET['a'])){
 
 if(isset($_GET['b'])){
 	sleep(2);
-	$serial->sendMessage("b"); //envia o caractere 'd' via Serial pro Arduino
+	$serial->sendMessage("b"); //envia o caractere 'b' via Serial pro Arduino
 	sleep(1); //delay para o Arduino enviar a resposta
 	$read = $serial->readPort(); //faz a leitura da resposta na variavel $read
 	echo $read; //echo para mostrar a resposta recebida do Arduino
@@ -34,7 +31,7 @@ if(isset($_GET['b'])){
 
 if(isset($_GET['c'])){
 	sleep(2);
-	$serial->sendMessage("c"); //envia o caractere 'd' via Serial pro Arduino
+	$serial->sendMessage("c"); //envia o caractere 'c' via Serial pro Arduino
 	sleep(1); //delay para o Arduino enviar a resposta
 	$read = $serial->readPort(); //faz a leitura da resposta na variavel $read
 	echo $read; //echo para mostrar a resposta recebida do Arduino

@@ -1,0 +1,15 @@
+footer{
+    margin: 0 auto;
+    height: 50px;
+    background-color: #303030;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    div{
+        @include texto(16px, $branco);
+        text-align: center;
+        display: block;
+        margin-top: 15px;
+    }
+}

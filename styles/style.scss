@@ -1,0 +1,20 @@
+$principal: #2A2A2A;
+$botoes: #278D82;
+$letras_label: #27CECE;
+$links: #909090;
+$branco: #fff;
+$letras-claro: #000;
+
+@mixin texto ($tamanho, $cor){
+    font-family: "Malgun Gothic";
+    font-size: $tamanho;
+    color: $cor;
+}
+
+@import 'reset'; 
+@import 'login';
+@import 'navpage';
+@import 'status';
+@import 'comodos';
+@import 'footer';
+@import 'responsivo';

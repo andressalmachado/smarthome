@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: #2A2A2A;
+  height: 100%;
+}
+
+.principal {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.form {
+  width: 380px;
+  height: 460px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+}
+
+img {
+  margin: 0px auto;
+  width: 100%;
+}
+
+.botao {
+  margin: 10% auto;
+  width: 220px;
+  height: 35px auto;
+  position: relative;
+  -webkit-box-shadow: 0 0 20px 9px #ff61241f;
+          box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.btn-principal {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#278D82), to(#27CECE));
+  background: linear-gradient(to right, #278D82, #27CECE);
+  border-radius: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#login {
+  left: 50px;
+}
+
+#registrar {
+  left: 450px;
+}
+
+.input {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.campo-input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #909090;
+  outline: none;
+  background: transparent;
+}
+
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+
+span {
+  font-family: "Malgun Gothic";
+  font-size: 12px;
+  color: #2A2A2A;
+  bottom: 118px;
+  position: absolute;
+}
+
+.submit-btn {
+  margin: 10% auto;
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  background: -webkit-gradient(linear, left top, right top, from(#278D82), to(#27CECE));
+  background: linear-gradient(to right, #278D82, #27CECE);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.dropdown {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown nav {
+  width: 100%;
+  height: 80px;
+  background: #278D82;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  position: fixed;
+}
+
+.dropdown nav .logo {
+  width: 10%;
+  float: left;
+  margin-left: 10px;
+}
+
+.dropdown nav .logo a {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.dropdown nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 30px;
+  text-align: center;
+  background: #278D82;
+}
+
+.dropdown nav ul li {
+  width: 100px;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+.dropdown nav ul li a {
+  display: block;
+  padding: 0 15px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+.dropdown nav ul li a:hover {
+  background: #27CECE;
+  padding-left: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.dropdown nav ul ul {
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+
+.dropdown nav ul ul li {
+  width: 100px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.dropdown nav ul li:hover > ul {
+  display: block;
+}
+
+.status {
+  padding: 10px;
+  line-height: 40px;
+  font-family: "Malgun Gothic";
+  font-size: 20px;
+  color: #fff;
+}
+
+.comodos {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comodos .comodo-1 {
+  width: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  background: rosybrown;
+  border-radius: 20px;
+  font-family: "Malgun Gothic";
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+}
+
+.comodos .comodo-1 .display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  font-weight: normal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comodos .comodo-1 .display .botoes {
+  width: 50%;
+  margin-left: 8px;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  font-family: "Malgun Gothic";
+  font-size: 12px;
+  color: #2A2A2A;
+  font-weight: bold;
+}
+
+.comodos .comodo-2 {
+  width: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  background: cornflowerblue;
+  border-radius: 20px;
+  font-family: "Malgun Gothic";
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+}
+
+.comodos .comodo-2 .display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  font-weight: normal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comodos .comodo-2 .display .botoes {
+  width: 50%;
+  margin-left: 8px;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  font-family: "Malgun Gothic";
+  font-size: 12px;
+  color: #2A2A2A;
+  font-weight: bold;
+}
+
+.comodos .comodo-3 {
+  width: 200px;
+  padding: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  background: indianred;
+  border-radius: 20px;
+  font-family: "Malgun Gothic";
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+}
+
+footer {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  height: 50px;
+  background-color: #303030;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer div {
+  font-family: "Malgun Gothic";
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+
+@media (max-width: 840px) {
+  .dropdown nav .logo a {
+    font-size: 20px;
+  }
+  .dropdown nav ul li a {
+    font-size: 17px;
+  }
+  .comodos {
+    display: block;
+    margin: 60px auto;
+    padding: 10px;
+  }
+  .comodos .comodo-1 {
+    display: block;
+    width: 90%;
+    height: 130px;
+    padding: 20px;
+    margin: 10px 10px 30px 10px;
+  }
+  .comodos .comodo-2 {
+    display: block;
+    width: 90%;
+    height: 130px;
+    padding: 20px;
+    margin: 10px 10px 30px 10px;
+  }
+  .comodos .comodo-3 {
+    display: block;
+    width: 90%;
+    height: 130px;
+    padding: 20px;
+    margin: 10px 10px 30px 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .dropdown nav .logo a {
+    font-size: 17px;
+  }
+  .dropdown nav ul li a {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

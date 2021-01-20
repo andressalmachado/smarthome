@@ -1,0 +1,74 @@
+.comodos {
+  margin-top: 50px;
+  display: flex;
+
+  .comodo-1 {
+    width: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    background: rosybrown;
+    border-radius: 20px;
+    @include texto(26px, $letras-claro);
+    font-weight: bold;
+
+    .display {
+      display: flex;
+      margin-top: 20px;
+      font-weight: normal;
+      align-items: center;
+
+      .botoes {
+        width: 50%;
+        margin-left: 8px;
+        padding: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        display: block;
+        outline: none;
+        @include texto(12px, $principal);
+        font-weight: bold;
+      }
+    }
+  }
+
+  .comodo-2 {
+    width: 200px;
+    padding: 20px;
+    margin-left: 30px;
+
+    background: cornflowerblue;
+    border-radius: 20px;
+    @include texto(26px, $letras-claro);
+    font-weight: bold;
+
+    .display {
+      display: flex;
+      margin-top: 20px;
+      font-weight: normal;
+      align-items: center;
+
+      .botoes {
+        width: 50%;
+        margin-left: 8px;
+        padding: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        display: block;
+        outline: none;
+        @include texto(12px, $principal);
+        font-weight: bold;
+      }
+    }
+  }
+
+  .comodo-3 {
+    width: 200px;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: indianred;
+    border-radius: 20px;
+    @include texto(26px, $letras-claro);
+    font-weight: bold;
+  }
+}

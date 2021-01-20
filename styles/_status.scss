@@ -1,0 +1,5 @@
+.status{
+    padding: 10px;
+    line-height: 40px;
+    @include texto(20px, $branco);
+}

@@ -1,0 +1,66 @@
+@media (max-width: 840px) {
+  .dropdown {
+    nav {
+      .logo {
+        a {
+          font-size: 20px;
+        }
+      }
+      ul {
+        li {
+          a {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+
+  .comodos {
+    display: block;
+    margin: 60px auto;
+    padding: 10px;
+    
+    .comodo-1 {
+      display: block;
+      width: 90%;
+      height: 130px;
+      padding: 20px;
+      margin: 10px 10px 30px 10px;
+    }
+    .comodo-2 {
+      display: block;
+      width: 90%;
+      height: 130px;
+      padding: 20px;
+      margin: 10px 10px 30px 10px;
+    }
+    .comodo-3 {
+      display: block;
+      width: 90%;
+      height: 130px;
+      padding: 20px;
+      margin: 10px 10px 30px 10px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .dropdown {
+    nav {
+      .logo {
+        a {
+          font-size: 17px;
+        }
+      }
+      ul {
+        li {
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  
+}

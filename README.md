@@ -1,4 +1,4 @@
-# smarthome
+# SmartHome
 
 Este projeto foi realizado para conclusão do curso de análise e desenvolvimento de sistemas.
 Aluna: Andressa Lúcia Machado

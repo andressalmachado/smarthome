@@ -70,7 +70,6 @@ $serial->deviceClose(); //encerra a conexao serial
                         <a href="#">Ambiente</a>
                     </li>
 
-                    </li>
                     <li><a href="#">Conta</a></li>
 
                 </ul>
@@ -79,8 +78,8 @@ $serial->deviceClose(); //encerra a conexao serial
     </header>
     <br><br><br><br><br>
     <div class="status">
-        <?php echo "Data: " . date('d/m/Y') . "<br>" ?>
-        <?php echo "Hora: " . date('H:m') . "<br>" ?>
+        <?php echo "Data: " . date('d/m/Y') . "<br>"; ?>
+        <?php echo "Hora: " . date('H:m') . "<br>"; ?>
         <!-- <h3>Temperatura:</h3> -->
     </div>
     <hr>
